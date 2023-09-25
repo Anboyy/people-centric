@@ -1,0 +1,417 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  a.active{
+      border: 2px solid orange;
+      border-radius: 10px;
+      padding: 5px;
+  }
+
+  .nav{
+    z-index: 2;
+  }
+
+  .navi a:hover {
+    border: 2px solid orange;
+    background-color: #353FE8;
+    border-radius: 10px;
+    color: white;
+  }
+
+  a.active:hover{
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: white;
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+  }
+
+  .gambar1 {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .gambar-section-1 {
+    width: 100%; /* Mengisi lebar div */
+    height: auto; /* Menyesuaikan tinggi sesuai aspek gambar */
+    /* width: ; */
+  }
+
+  .basic-1 {
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
+}
+
+/*********************/
+/*    04. Header     */
+/*********************/
+.header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../assets/images/mengajar\ mandiri.png') center center no-repeat;
+	background-size: cover;
+}
+
+.header .header-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 3rem;
+}
+
+.header h1 {
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+	color: #dfe5ec;
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+/*********************/
+/*     05. Intro     */
+/*********************/
+.basic-1 {
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
+}
+
+.basic-1 .text-container {
+	margin-bottom: 3rem;
+}
+
+.basic-1 .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.basic-1 h2 {
+	margin-bottom: 1.375rem;
+}
+
+.basic-1 .testimonial-author {
+	color: #484a46;
+}
+
+/* Hover Animation */
+.basic-1 .image-container {
+	overflow: hidden;
+	border-radius: 0.25rem;
+}
+
+.basic-1 .image-container img {
+	margin: 0;
+	border-radius: 0.25rem;
+	transition: all 0.3s;
+}
+
+.basic-1 .image-container:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+} 
+
+.cards-2 {
+	padding-top: 3.625rem;	
+	padding-bottom: 1.25rem;	
+	background-color: #fbfbfb;
+}
+
+.cards-2 .section-title {
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.cards-2 h2 {
+	margin-bottom: 3.25rem;
+	text-align: center;
+}
+.cards-2 p {
+	/* margin-bottom: 3.25rem; */
+	text-align: center;
+}
+
+.cards-2 .card {
+	margin-bottom: 5.625rem;
+	border: none;
+	background-color: transparent;
+}
+
+.cards-2 .card-image img {
+	border-top-left-radius: 0.375rem;
+	border-top-right-radius: 0.375rem;
+}
+
+.cards-2 .card-body {
+	padding: 2.25rem 2rem 2.125rem 2rem;
+	border: 1px solid #ebe8e8;
+	border-bottom-left-radius: 0.375rem;
+	border-bottom-right-radius: 0.375rem;
+	background-color: #fff;
+}
+
+.cards-2 h3 {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.cards-2 .list-unstyled {
+	margin-bottom: 1.5rem;
+}
+
+.cards-2 .list-unstyled .fas {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.cards-2 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.cards-2 .price {
+	margin-bottom: 0.25rem;
+	color: #484a46;
+	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.cards-2 .price span {
+	color: #14bf98;
+}
+
+.cards-2 .button-container {
+	margin-top: -1.375rem;
+	text-align: center;
+}
+
+.cards-2 .btn-solid-reg:hover {
+	background-color: #fff;
+}
+
+.no-gutters .col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.orange-button {
+    background-color: orange; /* Warna latar belakang oranye */
+    color: white; /* Warna teks putih */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Tambahkan sudut melengkung */
+    cursor: pointer; /* Ganti kursor saat mengarahkan ke tombol */
+}
+
+/* Hover efek untuk tombol */
+.orange-button:hover {
+    background-color: darkorange; /* Warna latar belakang yang berbeda saat dihover */
+}
+
+.intro2{
+	background-color: #F1F1FD;
+}
+
+.intro2-title{
+	color: white;
+}
+
+.intro2-subtitle{
+	color: white;
+}
+
+.offer1 {
+    background-color: #F1F1FD;
+}
+
+.offer2 {
+    background-color: #353FE8;
+}
+
+.offer-subtitle{
+    color: white;
+}
+
+.profile{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom:2rem ;
+    margin-top: 0;
+}
+
+.footer-section {
+  background-color: #353FE8;
+}
+
+.footer-subtitle {
+  color: white;
+}
+
+.footer-title {
+  color: white;
+}
+
+.stiky{
+  position: fixed;
+  transform: translateY(50%);
+  z-index: 1;
+  float: right;
+  right: 0;
+}
+
+.stiky .card-body{
+  background-color: #FF881F;
+  color: white;
+}
+
+.custom-text {
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.4); /* Latar belakang biru dengan opasitas 60% */
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff; /* Warna teks putih */
+}
+
+/* Slider */
+
+.slider {
+	padding-top: 2.375rem;
+	padding-bottom: 2.5rem;
+	background-color: #fbfbfb;
+}
+
+.slider h6 {
+	margin-bottom: 0.75rem;
+	text-align: left;
+}
+
+.slider .slider-container {
+	position: relative;
+}
+
+.slider .swiper-container {
+	position: static;
+	width: 90%;
+	text-align: left;
+}
+
+.slider .swiper-button-prev:focus,
+.slider .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider .swiper-button-prev {
+	left: -1.5rem;
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .swiper-button-next {
+	right: 1.5rem;
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider .card {
+	position: relative;
+	border: none;
+	background-color: transparent;
+}
+
+.slider .card-image {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+}
+
+.slider .card .card-body {
+	padding-bottom: 0;
+}
+
+.slider .testimonial-text {
+	margin-bottom: 0.625rem;
+}
+
+.slider .testimonial-author {
+	color: #484a46;
+}
