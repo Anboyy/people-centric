@@ -332,7 +332,7 @@
 .stiky{
   position: fixed;
   transform: translateY(50%);
-  z-index: 1;
+  z-index: 100;
   float: right;
   right: 0;
 }
@@ -414,4 +414,19 @@
 
 .slider .testimonial-author {
 	color: #484a46;
+}
+
+/* Solution */
+
+.solution h2 {
+  color: white;
+}
+
+.solution p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
