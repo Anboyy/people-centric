@@ -331,13 +331,19 @@
 
 .stiky{
   position: fixed;
-  transform: translateY(50%);
+  transform: translateY(30%);
   z-index: 100;
   float: right;
   right: 0;
 }
 
+.stiky .card{
+  text-align: center;
+  width: 4.5rem;
+  height: auto;
+}
 .stiky .card-body{
+  font-size: 10px;
   background-color: #FF881F;
   color: white;
 }
