@@ -337,9 +337,14 @@
   right: 0;
 }
 
+.stiky a {
+  color: white;
+  text-decoration: none;
+}
+
 .stiky .card{
   text-align: center;
-  width: 4.5rem;
+  width: 5rem;
   height: auto;
 }
 .stiky .card-body{
@@ -362,6 +367,7 @@
 /* Slider */
 
 .slider {
+  vertical-align: middle;
 	padding-top: 2.375rem;
 	padding-bottom: 2.5rem;
 	background-color: #fbfbfb;
@@ -379,12 +385,11 @@
 .slider .swiper-container {
 	position: static;
 	width: 90%;
-	text-align: left;
+	text-align: center;
 }
 
 .slider .swiper-button-prev:focus,
 .slider .swiper-button-next:focus {
-	/* even if you can't see it chrome you can see it on mobile device */
 	outline: none;
 }
 
@@ -405,7 +410,7 @@
 }
 
 .slider .card-image {
-	width: auto;
+	width: 50%;
 	height: auto;
 	margin-left: auto;
 }
